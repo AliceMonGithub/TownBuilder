@@ -12,65 +12,11 @@ public class SpriteColorConfig
     public Color Color => _color;
 }
 
-public class HouseBehaviour : MonoBehaviour
+[CreateAssetMenu]
+public class HouseBehaviour : ScriptableObject
 {
-    [SerializeField] private UnityEvent _onBuilding;
-    [SerializeField] private UnityEvent _onBuilded;
+    public int ClicksToBuild;
+    public int ClickCount;
 
-    [Space]
-
-    [SerializeField] private Color _notBuildedColor;
-
-    [SerializeField] private int _clicksToBuild;
-
-    [Space]
-
-    [SerializeField] private SpriteColorConfig[] _nonBuildHouseSprites;
-    [SerializeField] private SpriteColorConfig[] _buildedHouseSprites;
-
-    private int _currentClicksCount;
-    private bool _builded;
-
-    private void Awake()
-    {
-        foreach (SpriteColorConfig config in _nonBuildHouseSprites)
-        {
-            config.SpriteRenderer.color = config.Color;
-        }
-    }
-
-    public void Build()
-    {
-        if (_builded) return;
-
-        _currentClicksCount++;
-
-        if(_currentClicksCount >= _clicksToBuild)
-        {
-            _onBuilded.Invoke();
-
-            FinishBuilding();
-
-            _builded = true;
-
-            return;
-        }
-
-        _onBuilding.Invoke();
-    }
-
-    public void ParticleInClick(ParticleSystem particleSystem)
-    {
-        var position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Instantiate(particleSystem, position, Quaternion.identity);
-    }
-
-    private void FinishBuilding()
-    {
-        foreach (SpriteColorConfig config in _buildedHouseSprites)
-        {
-            config.SpriteRenderer.color = config.Color;
-        }
-    }
+    public bool Builded;
 }
