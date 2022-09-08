@@ -300,7 +300,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 96185281}
-  - component: {fileID: 96185282}
   m_Layer: 0
   m_Name: House_4
   m_TagString: Untagged
@@ -331,60 +330,6 @@ Transform:
   m_Father: {fileID: 2117622514}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &96185282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 96185280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc610b273ef083546b5f8abe7fa91471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _onBuilding:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 96185282}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: bdc0d5b3573fb1a4791bb752ca01b734, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onBuilded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 96185282}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: 0c89fe1a565111549b0f7c30ac790043, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _notBuildedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-  _clicksToBuild: 10
-  _nonBuildHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 0.7924528, g: 0.74899876, b: 0.4448202, a: 1}
-  - _spriteRenderer: {fileID: 234653595}
-    _color: {r: 0.7735849, g: 0.50931966, b: 0.4488252, a: 1}
-  _buildedHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 1, g: 0.94117653, b: 0.53333336, a: 1}
-  - _spriteRenderer: {fileID: 234653595}
-    _color: {r: 1, g: 0.6745098, b: 0.6, a: 1}
 --- !u!1 &231688149
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +465,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 96185282}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
           m_MethodName: Build
           m_Mode: 1
@@ -1039,7 +984,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 530699136}
-  - component: {fileID: 530699135}
   m_Layer: 0
   m_Name: House_6
   m_TagString: Untagged
@@ -1047,60 +991,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &530699135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530699134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc610b273ef083546b5f8abe7fa91471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _onBuilding:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 530699135}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: bdc0d5b3573fb1a4791bb752ca01b734, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onBuilded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 530699135}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: 0c89fe1a565111549b0f7c30ac790043, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _notBuildedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-  _clicksToBuild: 10
-  _nonBuildHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 0.7924528, g: 0.74899876, b: 0.4448202, a: 1}
-  - _spriteRenderer: {fileID: 669532398}
-    _color: {r: 0.7735849, g: 0.50931966, b: 0.4488252, a: 1}
-  _buildedHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 1, g: 0.94117653, b: 0.53333336, a: 1}
-  - _spriteRenderer: {fileID: 669532398}
-    _color: {r: 1, g: 0.6745098, b: 0.6, a: 1}
 --- !u!4 &530699136
 Transform:
   m_ObjectHideFlags: 0
@@ -1108,8 +998,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530699134}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.86, y: -2.38, z: -0.30448574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.126864, y: -1.26116, z: -0.2110995}
   m_LocalScale: {x: 0.6642838, y: 0.6642838, z: 1.3285676}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1126,7 +1016,7 @@ Transform:
   - {fileID: 1516346765}
   - {fileID: 1328377071}
   - {fileID: 889979299}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2117622514}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &589302394
@@ -1348,7 +1238,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1832986686}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
           m_MethodName: Build
           m_Mode: 1
@@ -1610,7 +1500,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 530699135}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
           m_MethodName: Build
           m_Mode: 1
@@ -1924,6 +1814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733588169}
+  - component: {fileID: 733588170}
   m_Layer: 0
   m_Name: House_2
   m_TagString: Untagged
@@ -1951,6 +1842,30 @@ Transform:
   m_Father: {fileID: 2117622514}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &733588170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733588168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4b5fffe37cbf4aa4b38ca1de93666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nonBuildedConfigs:
+  - _spriteRenderer: {fileID: 1211237563}
+    _color: {r: 0.33043706, g: 0.4716981, b: 0.3270737, a: 1}
+  - _spriteRenderer: {fileID: 1341313118}
+    _color: {r: 0.54431444, g: 0.745283, b: 0.5238074, a: 1}
+  _buildedConfigs:
+  - _spriteRenderer: {fileID: 1211237563}
+    _color: {r: 0.43921572, g: 0.6039216, b: 0.43529415, a: 1}
+  - _spriteRenderer: {fileID: 1341313118}
+    _color: {r: 0.8078432, g: 1, b: 0.78823537, a: 1}
+  _houseBehaviour: {fileID: 11400000, guid: c32de05828e5e2945b4a93f49f1fa03d, type: 2}
+  _sceneData: {fileID: 11400000, guid: 939f3ce64650ebf49a84f199cb150086, type: 2}
 --- !u!1 &889979297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,6 +2211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1142226969}
+  - component: {fileID: 1142226970}
   m_Layer: 0
   m_Name: House_1
   m_TagString: Untagged
@@ -2322,6 +2238,30 @@ Transform:
   m_Father: {fileID: 2117622514}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1142226970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142226968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4b5fffe37cbf4aa4b38ca1de93666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nonBuildedConfigs:
+  - _spriteRenderer: {fileID: 246458321}
+    _color: {r: 0.8018868, g: 0.5687544, b: 0.26855645, a: 1}
+  - _spriteRenderer: {fileID: 1567338126}
+    _color: {r: 0.7735849, g: 0.68499565, b: 0.56559277, a: 1}
+  _buildedConfigs:
+  - _spriteRenderer: {fileID: 246458321}
+    _color: {r: 1, g: 0.7137255, b: 0.34509805, a: 1}
+  - _spriteRenderer: {fileID: 1567338126}
+    _color: {r: 1, g: 0.909804, b: 0.78823537, a: 1}
+  _houseBehaviour: {fileID: 11400000, guid: 68bf8f5c6fa89ae4c88e387f6a41cbc3, type: 2}
+  _sceneData: {fileID: 11400000, guid: 939f3ce64650ebf49a84f199cb150086, type: 2}
 --- !u!1 &1189200595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2904,6 +2844,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1341313117}
   - component: {fileID: 1341313118}
+  - component: {fileID: 1341313119}
+  - component: {fileID: 1341313120}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -2978,6 +2920,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1341313119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 733588170}
+          m_TargetAssemblyTypeName: Assets.Sources.House.HousePiece, Assembly-CSharp
+          m_MethodName: LoadScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!61 &1341313120
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341313116}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1420168916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,6 +3153,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1567338125}
   - component: {fileID: 1567338126}
+  - component: {fileID: 1567338127}
+  - component: {fileID: 1567338128}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -3230,6 +3229,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1567338127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567338124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142226970}
+          m_TargetAssemblyTypeName: Assets.Sources.House.HousePiece, Assembly-CSharp
+          m_MethodName: LoadScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!61 &1567338128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567338124}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1613138643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3592,7 +3646,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1832986685}
-  - component: {fileID: 1832986686}
   m_Layer: 0
   m_Name: House_5
   m_TagString: Untagged
@@ -3621,60 +3674,6 @@ Transform:
   m_Father: {fileID: 2117622514}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1832986686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832986684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc610b273ef083546b5f8abe7fa91471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _onBuilding:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1832986686}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: bdc0d5b3573fb1a4791bb752ca01b734, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onBuilded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1832986686}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: 0c89fe1a565111549b0f7c30ac790043, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _notBuildedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-  _clicksToBuild: 10
-  _nonBuildHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 0.7924528, g: 0.74899876, b: 0.4448202, a: 1}
-  - _spriteRenderer: {fileID: 619264964}
-    _color: {r: 0.7735849, g: 0.50931966, b: 0.4488252, a: 1}
-  _buildedHouseSprites:
-  - _spriteRenderer: {fileID: 0}
-    _color: {r: 1, g: 0.94117653, b: 0.53333336, a: 1}
-  - _spriteRenderer: {fileID: 619264964}
-    _color: {r: 1, g: 0.6745098, b: 0.6, a: 1}
 --- !u!1 &1868036505
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,7 +4034,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117622513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2668643, y: -1.1188401, z: -0.09338623}
+  m_LocalPosition: {x: -5.27, y: -1.1188401, z: -0.09338623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4044,6 +4043,7 @@ Transform:
   - {fileID: 9020640731911237473}
   - {fileID: 96185281}
   - {fileID: 1832986685}
+  - {fileID: 530699136}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4476,7 +4476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9020640731911237473}
-  - component: {fileID: 9020640731911237472}
+  - component: {fileID: 9020640731911237474}
   m_Layer: 0
   m_Name: House_3
   m_TagString: Untagged
@@ -4484,60 +4484,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9020640731911237472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9020640731911237407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc610b273ef083546b5f8abe7fa91471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _onBuilding:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9020640731911237472}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: bdc0d5b3573fb1a4791bb752ca01b734, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onBuilded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9020640731911237472}
-        m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-        m_MethodName: ParticleInClick
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6891480571204302689, guid: 0c89fe1a565111549b0f7c30ac790043, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _notBuildedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-  _clicksToBuild: 10
-  _nonBuildHouseSprites:
-  - _spriteRenderer: {fileID: 9020640730717120124}
-    _color: {r: 0.7924528, g: 0.74899876, b: 0.4448202, a: 1}
-  - _spriteRenderer: {fileID: 9020640732314068379}
-    _color: {r: 0.7735849, g: 0.50931966, b: 0.4488252, a: 1}
-  _buildedHouseSprites:
-  - _spriteRenderer: {fileID: 9020640730717120124}
-    _color: {r: 1, g: 0.94117653, b: 0.53333336, a: 1}
-  - _spriteRenderer: {fileID: 9020640732314068379}
-    _color: {r: 1, g: 0.6745098, b: 0.6, a: 1}
 --- !u!4 &9020640731911237473
 Transform:
   m_ObjectHideFlags: 0
@@ -4559,6 +4505,30 @@ Transform:
   m_Father: {fileID: 2117622514}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9020640731911237474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020640731911237407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4b5fffe37cbf4aa4b38ca1de93666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nonBuildedConfigs:
+  - _spriteRenderer: {fileID: 9020640730717120124}
+    _color: {r: 0.7830189, g: 0.73413455, b: 0.39520293, a: 1}
+  - _spriteRenderer: {fileID: 9020640732314068379}
+    _color: {r: 0.6509434, g: 0.42857388, b: 0.37767, a: 1}
+  _buildedConfigs:
+  - _spriteRenderer: {fileID: 9020640730717120124}
+    _color: {r: 1, g: 0.94117653, b: 0.53333336, a: 1}
+  - _spriteRenderer: {fileID: 9020640732314068379}
+    _color: {r: 1, g: 0.6745098, b: 0.6, a: 1}
+  _houseBehaviour: {fileID: 11400000, guid: b148bfcc19bfe58459e46fea0d2b16c2, type: 2}
+  _sceneData: {fileID: 11400000, guid: 939f3ce64650ebf49a84f199cb150086, type: 2}
 --- !u!1 &9020640732314068378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4569,8 +4539,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9020640732314068382}
   - component: {fileID: 9020640732314068379}
-  - component: {fileID: 9020640732314068381}
-  - component: {fileID: 9020640732314068380}
+  - component: {fileID: 9020640732314068383}
+  - component: {fileID: 9020640732314068384}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -4630,7 +4600,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9020640732314068380
+--- !u!4 &9020640732314068382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020640732314068378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07599967, y: 0.21880005, z: 0.3044857}
+  m_LocalScale: {x: 3.744671, y: 2.4142954, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9020640731911237473}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9020640732314068383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4647,9 +4632,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9020640731911237472}
-          m_TargetAssemblyTypeName: HouseBehaviour, Assembly-CSharp
-          m_MethodName: Build
+        - m_Target: {fileID: 9020640731911237474}
+          m_TargetAssemblyTypeName: Assets.Sources.House.HousePiece, Assembly-CSharp
+          m_MethodName: LoadScene
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4659,7 +4644,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!61 &9020640732314068381
+--- !u!61 &9020640732314068384
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4672,7 +4657,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.033882648}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4683,20 +4668,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0677652}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &9020640732314068382
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9020640732314068378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07599967, y: 0.21880005, z: 0.3044857}
-  m_LocalScale: {x: 3.744671, y: 2.4142954, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9020640731911237473}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
