@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -1476,15 +1476,16 @@ TextureImporter:
       GUI_6: -370101970
       GUI_45: -882924625
       GUI_16: 1896577657
-      GUI_7: -1903895141
-      GUI_8: -169659873
+      GUI_52: -261817207
+      GUI_58: -1323143368
       GUI_10: 916923734
+      GUI_7: -1903895141
       GUI_31: -551098351
       GUI_27: -479093541
       GUI_39: 1164074851
       GUI_28: -1306669346
       GUI_5: -671698342
-      GUI_52: -261817207
+      GUI_8: -169659873
       GUI_0: -805598788
       GUI_61: 246502726
       GUI_60: 1407103202
@@ -1493,7 +1494,6 @@ TextureImporter:
       GUI_32: -1481744519
       GUI_33: 1741037524
       GUI_19: -1506430933
-      GUI_58: -1323143368
       GUI_53: 576261780
       GUI_29: -528629077
       GUI_1: -2100578082

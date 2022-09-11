@@ -38,7 +38,7 @@ namespace Assets.Sources.House
 
             if(_houseBehaviour.ClickCount >= _houseBehaviour.ClicksToBuild)
             {
-                _houseBehaviour.Builded = true;
+                _sceneData.Houses.Add(_houseBehaviour);
 
                 SceneManager.LoadScene("TownScene");
 

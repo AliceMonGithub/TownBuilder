@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Sources.SceneDataLogic
@@ -10,6 +11,7 @@ namespace Assets.Sources.SceneDataLogic
 
         [Space]
 
+        public List<HouseBehaviour> Houses;
         public HouseBehaviour HouseBehaviour;
     }
 }

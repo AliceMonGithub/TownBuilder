@@ -1,6 +1,7 @@
 ﻿using Assets.Sources.SceneDataLogic;
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,7 +32,7 @@ namespace Assets.Sources.House
 
         private void Awake()
         {
-            SpriteColorConfig[] configs = _houseBehaviour.Builded ? _buildedConfigs : _nonBuildedConfigs;
+            SpriteColorConfig[] configs = _sceneData.Houses.Any(house => house == _houseBehaviour) ? _buildedConfigs : _nonBuildedConfigs;
 
             foreach (var config in configs)
             {
@@ -41,7 +42,7 @@ namespace Assets.Sources.House
 
         public void LoadScene()
         {
-            if (_houseBehaviour.Builded) return;
+            if (_sceneData.Houses.Any(house => house == _houseBehaviour)) return;
 
             _sceneData.HouseBehaviour = _houseBehaviour;
 
