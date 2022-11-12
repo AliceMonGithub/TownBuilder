@@ -1,4 +1,5 @@
 ﻿using Assets.Sources.SceneDataLogic;
+using Lean.Transition;
 using System;
 using System.Collections;
 using System.Linq;
@@ -19,8 +20,7 @@ namespace Assets.Sources.House
 
     public class HousePiece : MonoBehaviour
     {
-        [SerializeField] private SpriteColorConfig[] _nonBuildedConfigs;
-        [SerializeField] private SpriteColorConfig[] _buildedConfigs;
+        [SerializeField] private GameObject _nonBuildedGO;
 
         [Space]
 
@@ -32,12 +32,9 @@ namespace Assets.Sources.House
 
         private void Awake()
         {
-            SpriteColorConfig[] configs = _sceneData.Houses.Any(house => house == _houseBehaviour) ? _buildedConfigs : _nonBuildedConfigs;
+            bool builded = _sceneData.Houses.Any(house => house == _houseBehaviour);
 
-            foreach (var config in configs)
-            {
-                config.SpriteRenderer.color = config.Color;
-            }
+            _nonBuildedGO.SetActive(!builded);
         }
 
         public void LoadScene()

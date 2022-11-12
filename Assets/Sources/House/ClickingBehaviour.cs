@@ -28,9 +28,9 @@ namespace Assets.Sources.House
 
         private void PointerClick(PointerEventData pointerData)
         {
-            _houseBehaviour.ClickCount++;
+            _houseBehaviour.ClickCount += 1 * PlayerPrefs.GetInt("Build", 1);
 
-            _sceneData.Money += _houseBehaviour.ClickMoney;
+            _sceneData.Money += _houseBehaviour.ClickMoney * PlayerPrefs.GetInt("Money", 1);
 
             InstantiateParticle(pointerData.pointerClick.transform.position);
 
